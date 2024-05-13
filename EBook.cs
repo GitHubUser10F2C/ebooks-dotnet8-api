@@ -39,7 +39,7 @@ public class EBook
     /// <summary>
     /// Availability of the eBook.
     /// </summary>
-    public required bool IsAvailable { get; set; }
+    public bool IsAvailable { get; set; }
 
     /// <summary>
     /// Price of the eBook.
@@ -50,5 +50,5 @@ public class EBook
     /// <summary>
     /// Stock of the eBook.
     /// </summary>
-    public required int Stock { get; set; }
+    public int Stock { get; set; }
 }
